@@ -11,6 +11,7 @@ export default class App extends Component {
         <Routes>
           <Route path="/admin" element={<Admin />}></Route>
           <Route path="/login" element={<Login />}></Route>
+          {/* <Route path="/" element={<Navigate to ="/login" />}/> */}
         </Routes>
     )
   }
